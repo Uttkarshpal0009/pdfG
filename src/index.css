@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pdfg-orange: #ff7900;
+  --color-pdfg-black: #080808;
+  --color-pdfg-card: #151515;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #080808;
+  color: white;
+}
