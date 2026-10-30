@@ -38,6 +38,7 @@ function App() {
         <Route path="/page-numbers" element={<PageNumbers />} />
         <Route path="/sign-pdf" element={<SignPDF />} />
         <Route path="/ai-summary" element={<AISummary />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
